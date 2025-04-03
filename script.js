@@ -40,7 +40,7 @@ const _slideDua = function () {
     tap.classList.remove('d-none');
     document.body.addEventListener('click', function () {
       slideDua.classList.replace('animate__zoomInDown', 'animate__fadeOutLeft');
-      slideDua.classList.remove('animate__delay-2s', 'animate__slow');
+      slideDua.classList.remove('animate__delay-1s', 'animate__slow');
       tap.classList.add('d-none');
       setTimeout(function () {
         slideDua.remove();
@@ -58,7 +58,7 @@ const _slideTiga = function () {
   setTimeout(function () {
     tap.classList.remove('d-none');
     document.body.addEventListener('click', function () {
-      slideTiga.classList.remove('animate__delay-2s', 'animate__slow');
+      slideTiga.classList.remove('animate__delay-1s', 'animate__slow');
       slideTiga.classList.replace('animate__fadeInRight', 'animate__fadeOut');
       tap.remove();
       setTimeout(function () {
@@ -110,7 +110,7 @@ const _slideLima = function () {
   }, 1000);
 
   slideLima.addEventListener('animationend', () => {
-    slideLima.classList.add('animate__delay-3s')
+    slideLima.classList.add('animate__delay-1s')
     slideLima.classList.replace('animate__bounceIn', 'animate__fadeOut');
     trims.classList.add('animate__animated', 'animate__fadeOut', 'animate__delay-3s');
     setTimeout(() => {
