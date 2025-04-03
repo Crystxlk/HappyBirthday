@@ -154,14 +154,14 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Happy Birthday Artem!! i cant belive you are already 20!! oldieee!.", "i cannot belive its been 4 years since we met...but im proud to say that i loved every bit of it.", "we shared lots of memories together even if its all online, and i will NEVER forget them.", "I hope that you will enjoy this special day! even if u dont celebrate i will celebrate for u always!!"],
+  strings: ["Happy Birthday Artem!! i cant belive you are already 20!! oldieee! :p", "i cannot belive its been 4 years since we met...but im proud to say that i loved every bit of it.", "we shared lots of memories together even if its all online, and i will NEVER forget them.", "I hope that you will enjoy this special day! even if u dont celebrate it i want you to know that i will celebrate it for u always!!"],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["you mean the world to me and i will forever love you", "i know that we didnt get to spend this special day together but i want you to remeberthat there is at least someoe that would always be there got you...ME!!", " ", "- I LOVE YOUUUU!!! :3"],
+  strings: ["you mean the world to me and i will forever love you", "i know that we didnt get to spend this special day together but i want you to remeber that there is at least one person that would always be there for you...ME!!", " ", "- I LOVE YOUUUU!!! :3","now let me know what u think about it :>"],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
